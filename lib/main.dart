@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/data.dart';
+import 'package:myapp/welcomeScreen.dart';
 import 'package:myapp/widgets/cardSection.dart';
 import 'package:myapp/widgets/expenses.dart';
 import 'package:myapp/widgets/header.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: HomePage(),
+    home: WelcomeScreen(),
     debugShowCheckedModeBanner: false,
-    theme: ThemeData(fontFamily: "Circular"),
+    theme: ThemeData(
+        scaffoldBackgroundColor: primaryColor, fontFamily: "Circular"),
   ));
 }
 
