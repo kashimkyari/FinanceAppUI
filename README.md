@@ -1,6 +1,6 @@
-# myapp
+# FinanceAppUI
 
-A new Flutter project.
+A new Flutter project implementing a design seen on Medium.
 
 ## Getting Started
 
